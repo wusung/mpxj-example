@@ -1,0 +1,41 @@
+MPX,Microsoft Project for Windows,4.0,ANSI
+10,$,1,2,",",.
+11,2,0,1,8.00,40.00,$0.00/h,$0.00/h,1,1
+12,1,0,480,/,:,am,pm,20,20
+20,Standard,0,1,1,1,1,1,0
+25,1
+25,2,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,3,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,4,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,5,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,6,08:00 am,12:00 pm,01:00 pm,05:00 pm
+25,7
+30,mpp9barstyle-from12,"Sagerion, LLC",,Standard,31/03/2010,07/04/2010,0,01/12/2023,,$0.00,$0.00,$0.00,0h,0h,0h,0%,0d,0d,0d,0%,,,,,0d,0d,,Tom
+40,Name,Initials,Work,Remaining Work,Work Variance,ID,Max Units,Accrue At,Peak,Unique ID
+41,1,2,20,23,25,40,41,45,47,49
+50,,,0h,0h,0h,0,1,Prorated,1,0
+55,Standard,2,2,2,2,2,2,2
+50,Bob,B,48h,48h,48h,1,1,Prorated,1,1
+55,Standard,2,2,2,2,2,2,2
+60,Name,WBS,Outline Level,Work,Remaining Work,Work Variance,% Work Complete,Duration,Remaining Duration,% Complete,Duration Variance,Start,Finish,Early Start,Early Finish,Late Start,Late Finish,Fixed,Critical,Rollup,ID,Constraint Type,Delay,Free Slack,Total Slack,Priority,Unique ID,Outline Number,Summary,Created
+61,1,2,3,20,23,24,25,40,43,44,45,50,51,52,53,54,55,80,82,84,90,91,92,93,94,95,98,99,120,125
+70,mpp9barstyle-from12,0,0,48h,48h,48h,0%,6d,6d,0%,6d,31/03/2010,07/04/2010,31/03/2010,07/04/2010,07/04/2010,07/04/2010,Yes,Yes,No,0,As Soon As Possible,0ed,0d,0d,Medium,0,0,Yes,31/03/2010
+70,First Task,1,1,8h,8h,8h,0%,1d,1d,0%,1d,31/03/2010,31/03/2010,31/03/2010,31/03/2010,07/04/2010,07/04/2010,No,No,No,1,As Soon As Possible,0ed,5d,5d,Medium,1,1,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,31/03/2010,31/03/2010,0h,1
+76,,0,0,NA,NA
+70,Summary Task,2,1,40h,40h,40h,0%,5d,5d,0%,5d,01/04/2010,07/04/2010,01/04/2010,07/04/2010,07/04/2010,07/04/2010,Yes,Yes,Yes,2,As Soon As Possible,0ed,0d,0d,Medium,7,2,Yes,15/04/2010
+70,Second Task,2.1,2,8h,8h,8h,0%,1d,1d,0%,1d,01/04/2010,01/04/2010,01/04/2010,01/04/2010,07/04/2010,07/04/2010,No,No,No,3,As Soon As Possible,1ed,4d,4d,Medium,2,2.1,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,01/04/2010,01/04/2010,0h,1
+76,,0,0,NA,NA
+70,Third Task,2.2,2,8h,8h,8h,0%,1d,1d,0%,1d,02/04/2010,02/04/2010,02/04/2010,02/04/2010,07/04/2010,07/04/2010,No,No,No,4,As Soon As Possible,2ed,3d,3d,Medium,3,2.2,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,02/04/2010,02/04/2010,0h,1
+76,,0,0,NA,NA
+70,Fourth Task,2.3,2,8h,8h,8h,0%,1d,1d,0%,1d,05/04/2010,05/04/2010,05/04/2010,05/04/2010,07/04/2010,07/04/2010,No,No,No,5,As Soon As Possible,5ed,2d,2d,Medium,4,2.3,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,05/04/2010,05/04/2010,0h,1
+76,,0,0,NA,NA
+70,Fifth Task,2.4,2,8h,8h,8h,0%,1d,1d,0%,1d,06/04/2010,06/04/2010,06/04/2010,06/04/2010,07/04/2010,07/04/2010,No,No,No,6,As Soon As Possible,6ed,1d,1d,Medium,5,2.4,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,06/04/2010,06/04/2010,0h,1
+76,,0,0,NA,NA
+70,Sixth Task,2.5,2,8h,8h,8h,0%,1d,1d,0%,1d,07/04/2010,07/04/2010,07/04/2010,07/04/2010,07/04/2010,07/04/2010,No,Yes,No,7,As Soon As Possible,7ed,0d,0d,Medium,6,2.5,No,31/03/2010
+75,1,1,8h,0h,0h,0h,$0.00,$0.00,$0.00,07/04/2010,07/04/2010,0h,1
+76,,0,0,NA,NA
